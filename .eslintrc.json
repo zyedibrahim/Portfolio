@@ -1,5 +1,6 @@
 
 {
-    "extends": "react-app"
-  }
+  "extends": ["react-app", "plugin:material-ui/recommended"]
+}
+
   // 
