@@ -104,6 +104,7 @@ export function FooterCon({ darks }) {
                   >
                     <Box>
                       <a
+                        rel="noreferrer"
                         target="_blank"
                         style={{ textDecoration: "underline" }}
                         href="https://github.com/zyedibrahim"
@@ -116,9 +117,10 @@ export function FooterCon({ darks }) {
                     </Box>
                     <Box>
                       <a
+                        rel="noreferrer"
                         target="_blank"
                         style={{ textDecoration: "underline" }}
-                        href="https://github.com/zyedibrahim"
+                        href="https://www.linkedin.com/in/syed-ibrahim-64a3a6234/?originalSubdomain=in"
                       >
                         <i
                           className="fa-brands fa-linkedin"

@@ -3,7 +3,7 @@ import CottageIcon from "@mui/icons-material/Cottage";
 import ContactsIcon from "@mui/icons-material/Contacts";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 export const Linkarray = [
-  //kjdflk
+  // updated version
   {
     label: "Home",
     route: "/home",

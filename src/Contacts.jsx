@@ -111,6 +111,7 @@ export function Contacts({ darks }) {
                     </Box>
                     <Box sx={{ fontSize: "25px" }}>
                       <a
+                        rel="noreferrer"
                         target="_blank"
                         href="https://www.instagram.com/zyed_ibrahim/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
                         style={{
@@ -136,6 +137,7 @@ export function Contacts({ darks }) {
                     </Box>
                     <Box sx={{ fontSize: "25px" }}>
                       <a
+                        rel="noreferrer"
                         target="_blank"
                         href="https://twitter.com/zyed_ibrahim?s=09"
                         style={{
@@ -145,6 +147,32 @@ export function Contacts({ darks }) {
                         }}
                       >
                         zyed_ibrahim
+                      </a>
+                    </Box>
+                  </Box>
+                  <Box display="flex" gap={2} justifyContent="start">
+                    <Box
+                      display="flex"
+                      flexDirection="column"
+                      justifyContent="center"
+                    >
+                      <i
+                        className="fa-brands fa-linkedin"
+                        style={{ color: "#4884ea", fontSize: "30px" }}
+                      ></i>
+                    </Box>
+                    <Box sx={{ fontSize: "25px" }}>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/syed-ibrahim-64a3a6234/?originalSubdomain=in"
+                        style={{
+                          textDecoration: "underline",
+                          cursor: "pointer",
+                          color: `${darks === "dark" ? "white" : "black"}`,
+                        }}
+                      >
+                        syed-ibrahim
                       </a>
                     </Box>
                   </Box>
