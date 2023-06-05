@@ -53,7 +53,18 @@ export function Navbar({ Setdarks, darks }) {
                     gap: "10px",
                   }}
                 >
-                  <AnimationIcon sm={{ fontSize: "32px" }} />
+                  {/* <AnimationIcon sm={{ fontSize: "32px" }} /> */}
+                  <Box sx={{ width: "30px", height: "30px" }}>
+                    <img
+                      style={{
+                        width: "30px",
+                        height: "30px",
+                        objectFit: "cover",
+                      }}
+                      src="https://t3.ftcdn.net/jpg/03/81/30/16/360_F_381301638_mo8XtnvD4VtKWjNITYhwL3ITRxF4ldaO.jpg"
+                      alt="logo"
+                    />
+                  </Box>
                   <Box>Syed Ibrahim</Box>
                 </Box>
               </Typography>
@@ -135,7 +146,17 @@ function DrawerComp({ Setdarks, darks }) {
               }}
             >
               <Box>
-                <AnimationIcon sx={{ fontSize: "32px" }} />
+                <Box sx={{ width: "30px", height: "30px" }}>
+                  <img
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      objectFit: "cover",
+                    }}
+                    src="https://t3.ftcdn.net/jpg/03/81/30/16/360_F_381301638_mo8XtnvD4VtKWjNITYhwL3ITRxF4ldaO.jpg"
+                    alt="logo"
+                  />
+                </Box>
               </Box>
               <Box>Syed</Box>
               <Box>Ibrahim</Box>
@@ -179,10 +200,17 @@ function DrawerComp({ Setdarks, darks }) {
                   padding: "7px",
                 }}
               >
-                <AnimationIcon
-                  style={{ color: "white" }}
-                  sx={{ fontSize: "32px" }}
-                />
+                <Box sx={{ width: "30px", height: "30px" }}>
+                  <img
+                    style={{
+                      width: "30px",
+                      height: "30px",
+                      objectFit: "cover",
+                    }}
+                    src="https://t3.ftcdn.net/jpg/03/81/30/16/360_F_381301638_mo8XtnvD4VtKWjNITYhwL3ITRxF4ldaO.jpg"
+                    alt="logo"
+                  />
+                </Box>
                 <Box sx={{ color: "white" }}>Syed</Box>
                 <Box display="flex">
                   <Typography sx={{ marginLeft: "auto" }}>

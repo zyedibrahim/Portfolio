@@ -19,12 +19,26 @@ export function ProjectContainer({ darks }) {
       projectlink: "https://grocery-item-catalog.netlify.app",
       gitlinks: "https://github.com/zyedibrahim/itemcatalog",
     },
+    {
+      project_img:
+        "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/647de8ecf899230008b71808/screenshot_2023-06-05-13-54-05-0000.png",
+      projectName: "Urlshotnerz ",
+      description:
+        "This is UrlShotner Project using Mern Stack When You Give a Long Its Give Short Link",
+      projectlink: "https://url-shortnerz.netlify.app/",
+      gitlinks: "https://github.com/zyedibrahim/urlshortpro",
+    },
   ];
   const ProjectDescrib = [
     {
       projectName: "Grocery Store",
       description:
         "Grocery Store Project FramWork Reactjs,Nodesjs,Express,MongoDB IUsed For Design Bootsrtrap FunctionalityLoign,Logout,ForgotPassword is Send Otp to Mail & when we CreateAccount It Send Verification Otp To Mail And Verfiy And i Include Admin Access To Create Delete Edit Products And We Can How Many User Are Created And Placing Order etc..",
+    },
+    {
+      projectName: "UrlShortnerz",
+      description:
+        "ShortURL allows to shorten long links from Instagram, Facebook, YouTube, Twitter, Linked In, WhatsApp, TikTok, blogs and sites. Just paste the long URL and click the Shorten URL button. On the next page, copy the shortened URL and share it on sites, chat and emails. After shortening the URL, check how many clicks it received.",
     },
   ];
 
@@ -172,7 +186,7 @@ export function ProjectContainer({ darks }) {
                       <CardMedia
                         component="img"
                         height="140"
-                        image="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6461f35556d1eb0008b4f58e/screenshot_2023-05-15-08-55-34-0000.png"
+                        image={ele.project_img}
                         alt="green iguana"
                       />
                       <CardContent>
@@ -223,9 +237,9 @@ export function ProjectContainer({ darks }) {
           </Typography>
         </Box>
       </Container>
-      <Container>
-        <Card>
-          {ProjectDescrib.map((ele, index) => (
+      <Container sx={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+        {ProjectDescrib.map((ele, index) => (
+          <Card>
             <Box
               sx={{
                 boxShadow: `${
@@ -247,8 +261,8 @@ export function ProjectContainer({ darks }) {
                 </Box>
               </Box>
             </Box>
-          ))}
-        </Card>
+          </Card>
+        ))}
       </Container>
     </Box>
   );
